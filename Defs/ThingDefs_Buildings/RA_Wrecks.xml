@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+    <ThingDef ParentName="NonDeconstructibleAncientBuildingBase">
+        <defName>RW_ApacheWreck</defName>
+        <label>Apache Wreck</label>
+        <description>An ancient, broken Apache. Restore it to gain a powerfull Helicopter.</description>
+        <rotatable>false</rotatable>
+        <graphicData>
+            <texPath>Things/Wrecks/Apache</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <drawSize>(9,5)</drawSize>
+        </graphicData>
+        <size>(7,3)</size>
+        <fillPercent>0.5</fillPercent>
+        <castEdgeShadows>false</castEdgeShadows>
+        <passability>PassThroughOnly</passability>
+        <pathCost>50</pathCost>
+        <statBases>
+            <MaxHitPoints>600</MaxHitPoints>
+            <Flammability>0</Flammability>
+        </statBases>
+        <killedLeavings>
+            <ChunkSlagSteel>2</ChunkSlagSteel>
+        </killedLeavings>
+        <comps>
+            <li Class="VanillaVehiclesExpanded.CompProperties_VehicleWreck">
+                <vehicleDef>ROCKET_Apache</vehicleDef>
+                <spawnRotation>East</spawnRotation>
+            </li>
+        </comps>
+    </ThingDef>
+
+    <ThingDef ParentName="NonDeconstructibleAncientBuildingBase">
+        <defName>RW_FalconWreck</defName>
+        <label>Falcon Wreck</label>
+        <description>An ancient, broken Fighter Jet, with enough parts you could restore it into a Falcon.</description>
+        <rotatable>false</rotatable>
+        <graphicData>
+            <texPath>Things/Wrecks/Falcon</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <drawSize>(11,11)</drawSize>
+        </graphicData>
+        <size>(9,7)</size>
+        <fillPercent>0.5</fillPercent>
+        <castEdgeShadows>false</castEdgeShadows>
+        <passability>PassThroughOnly</passability>
+        <pathCost>50</pathCost>
+        <statBases>
+            <MaxHitPoints>600</MaxHitPoints>
+            <Flammability>0</Flammability>
+        </statBases>
+        <killedLeavings>
+            <ChunkSlagSteel>2</ChunkSlagSteel>
+        </killedLeavings>
+        <comps>
+            <li Class="VanillaVehiclesExpanded.CompProperties_VehicleWreck">
+                <vehicleDef>ROCKET_Falcon</vehicleDef>
+                <spawnRotation>East</spawnRotation>
+            </li>
+        </comps>
+    </ThingDef>
+
+    <ThingDef ParentName="NonDeconstructibleAncientBuildingBase">
+        <defName>RW_SpiritWreck</defName>
+        <label>Spirit Wreck</label>
+        <description>An ancient, broken Bomber. It could still be restored.</description>
+        <rotatable>false</rotatable>
+        <graphicData>
+            <texPath>Things/Wrecks/Spirit</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <drawSize>(9.5,19)</drawSize>
+        </graphicData>
+        <size>(9,17)</size>
+        <fillPercent>0.5</fillPercent>
+        <castEdgeShadows>false</castEdgeShadows>
+        <passability>PassThroughOnly</passability>
+        <pathCost>50</pathCost>
+        <statBases>
+            <MaxHitPoints>600</MaxHitPoints>
+            <Flammability>0</Flammability>
+        </statBases>
+        <killedLeavings>
+            <ChunkSlagSteel>2</ChunkSlagSteel>
+        </killedLeavings>
+        <comps>
+            <li Class="VanillaVehiclesExpanded.CompProperties_VehicleWreck">
+                <vehicleDef>ROCKET_Spirit</vehicleDef>
+                <spawnRotation>East</spawnRotation>
+            </li>
+        </comps>
+    </ThingDef>
+</Defs>
+    
