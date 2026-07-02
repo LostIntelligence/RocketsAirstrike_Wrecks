@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Patch>
     <Operation Class="PatchOperationAdd">
-        <xpath>/Defs/VdsDef[defName="VVE_AllMaps_VehicleWrecks"]/thingDefs</xpath>
+        <xpath>/Defs/VEF.Maps.ObjectSpawnsDef[defName="VVE_AllMaps_VehicleWrecks"]/thingDefs</xpath>
         <value>
             <RW_ApacheWreck>1</RW_ApacheWreck>
             <RW_FalconWreck>1</RW_FalconWreck>
