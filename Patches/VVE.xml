@@ -3,45 +3,45 @@
     <Operation Class="PatchOperationAdd">
         <xpath>/Defs/VEF.Maps.ObjectSpawnsDef[defName="VVE_AllMaps_VehicleWrecks"]/thingDefs</xpath>
         <value>
-            <RW_ApacheWreck>0.1</RW_ApacheWreck>
+            <RW_ApacheWreck>1</RW_ApacheWreck>
             <RW_FalconWreck>1</RW_FalconWreck>
-            <RW_SpiritWreck>0.5</RW_SpiritWreck>
+            <RW_SpiritWreck>1</RW_SpiritWreck>
         </value>
     </Operation>
 
     <Operation Class="PatchOperationAdd">
         <xpath>/Defs/VEF.Maps.ObjectSpawnsDef[defName="VVE_DirtPath_VehicleWrecks"]/thingDefs</xpath>
         <value>
-            <RW_ApacheWreck>0.1</RW_ApacheWreck>
+            <RW_ApacheWreck>1</RW_ApacheWreck>
             <RW_FalconWreck>1</RW_FalconWreck>
-            <RW_SpiritWreck>0.5</RW_SpiritWreck>
+            <RW_SpiritWreck>1</RW_SpiritWreck>
         </value>
     </Operation>
 
     <Operation Class="PatchOperationAdd">
         <xpath>/Defs/VEF.Maps.ObjectSpawnsDef[defName="VVE_StoneRoad_VehicleWrecks"]/thingDefs</xpath>
         <value>
-            <RW_ApacheWreck>0.1</RW_ApacheWreck>
+            <RW_ApacheWreck>1</RW_ApacheWreck>
             <RW_FalconWreck>1</RW_FalconWreck>
-            <RW_SpiritWreck>0.5</RW_SpiritWreck>
+            <RW_SpiritWreck>1</RW_SpiritWreck>
         </value>
     </Operation>
 
     <Operation Class="PatchOperationAdd">
         <xpath>/Defs/VEF.Maps.ObjectSpawnsDef[defName="VVE_AncientAsphaltRoad_VehicleWrecks"]/thingDefs</xpath>
         <value>
-            <RW_ApacheWreck>0.1</RW_ApacheWreck>
+            <RW_ApacheWreck>1</RW_ApacheWreck>
             <RW_FalconWreck>1</RW_FalconWreck>
-            <RW_SpiritWreck>0.5</RW_SpiritWreck>
+            <RW_SpiritWreck>1</RW_SpiritWreck>
         </value>
     </Operation>
 
     <Operation Class="PatchOperationAdd">
         <xpath>/Defs/VEF.Maps.ObjectSpawnsDef[defName="VVE_AncientAsphaltHighway_VehicleWrecks"]/thingDefs</xpath>
         <value>
-            <RW_ApacheWreck>0.1</RW_ApacheWreck>
+            <RW_ApacheWreck>1</RW_ApacheWreck>
             <RW_FalconWreck>1</RW_FalconWreck>
-            <RW_SpiritWreck>0.5</RW_SpiritWreck>
+            <RW_SpiritWreck>1</RW_SpiritWreck>
         </value>
     </Operation>
 </Patch>
